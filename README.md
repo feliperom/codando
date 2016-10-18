@@ -1,2 +1,0 @@
-# codando
-Codando.co
