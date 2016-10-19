@@ -46,17 +46,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #27E1CE;
+  background: #EE225C;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #27E1CE;
+  background: #EE225C;
 }
 
 ::selection {
   color: #fff;
-  background: #27E1CE;
+  background: #EE225C;
 }
 
 .btn {
@@ -176,6 +176,26 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .btn-danger.btn-outline:hover, .btn-danger.btn-outline:focus, .btn-danger.btn-outline:active {
   background: #d9534f;
+  color: #fff;
+}
+
+.btn-codando{
+    background: #EE225C;
+    color: #fff;
+    border: 2px solid #EE225C;
+}
+.btn-codando:hover, btn-codando:focus, .btn-codando:active{
+    background: #EE225C !important;
+    border-color: #EE225C !important;
+    color: #fff !important;
+}
+.btn-codando.btn-outline{
+    background: transparent;
+    color: #EE225C;
+    border: 2px solid #EE225C;
+}
+.btn-codando.btn-outline:hover, .btn-codando.btn-outline:focus, .btn-codando.btn-outline:active {
+  background: #EE225C;
   color: #fff;
 }
 

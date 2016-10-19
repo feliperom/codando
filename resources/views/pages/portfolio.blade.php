@@ -10,7 +10,7 @@
             <div class="container">
                 <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
                     <div class="slider-text-inner">
-                        <h2>Our Awesome Projects</h2>
+                        <h2>Alguns dos Nossos Projetos</h2>
                         <p class="fh5co-lead">Designed with <i class="icon-heart"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
                     </div>
                 </div>
