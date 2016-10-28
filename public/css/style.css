@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #27E1CE;
+  border-color: #CD1C63;
 }
 
 .fh5co-social {
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-hero {
-  min-height: 700px;
+  /* min-height: 700px; */
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-hero .btn {
@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 700px;
+  min-height: 300px;
 }
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 40px;
@@ -549,6 +549,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
   font-size: 70px;
+  margin-top: 110px;
   font-weight: 400;
   color: #fff;
 }
@@ -794,7 +795,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-about,
 .fh5co-team,
 .fh5co-contact {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-about,
@@ -819,10 +820,10 @@ h1, h2, h3, h4, h5, h6, figure {
   top: .3em;
   left: 0;
   font-size: 22px;
-  color: #27E1CE;
+  color: #CD1C63;
 }
 .contact-info li a {
-  color: #27E1CE;
+  color: #CD1C63;
 }
 
 #map {

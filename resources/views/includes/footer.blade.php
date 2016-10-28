@@ -11,7 +11,6 @@
                 <li><a href="#">Sites Responsivos &amp; Customizáveis</a></li>
                 <li><a href="#">Sistemas Sob Medida</a></li>
                 <li><a href="#">Gestão de Redes Sociais</a></li>
-                <li><a href="#">HandCrafted Templates</a></li>
             </ul>
             <ul class="float">
                 <li><a href="#">SEO</a></li>
@@ -24,10 +23,8 @@
         <div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
             <h3>Siga nos</h3>
             <ul class="fh5co-social">
-                <!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
-                <li><a href="#"><i class="icon-facebook"></i></a></li>
-                <!-- <li><a href="#"><i class="icon-google-plus"></i></a></li> -->
-                <li><a href="#"><i class="icon-instagram"></i></a></li>
+                <li><a href="http://fb.com/codando.co"><i class="icon-facebook"></i></a></li>
+                <!-- <li><a href="#"><i class="icon-instagram"></i></a></li> -->
             </ul>
         </div>
 

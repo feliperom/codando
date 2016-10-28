@@ -3,13 +3,11 @@
         <h1><a href="/">CODANDO<span>.CO</span></a></h1>
         <nav role="navigation">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/servicos">Serviços</a></li>
-                <!-- <li><a href="pricing">Pricing</a></li> -->
-                <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contato</a></li>
-                <!-- <li class="cta"><a href="#">Get started</a></li> -->
+                <li class="{{ Request::segment(1) === '/' ? 'active' : null }}"><a href="<?=url('/');?>">Home</a></li>
+                <li class="{{ Request::segment(1) === 'portfolio' ? 'active' : null }}"><a href="<?=url('/portfolio');?>">Portfolio</a></li>
+                <li class="{{ Request::segment(1) === 'servicos' ? 'active' : null }}"><a href="<?=url('/servicos');?>">Serviços</a></li>
+                <li class="{{ Request::segment(1) === 'sobre' ? 'active' : null }}"><a href="<?=url('/sobre');?>">Sobre</a></li>
+                <li class="{{ Request::segment(1) === 'contato' ? 'active' : null }}"><a  href="<?=url('/contato');?>">Contato</a></li>
             </ul>
         </nav>
     </div>
