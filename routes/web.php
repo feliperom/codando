@@ -27,6 +27,9 @@ Route::get('sobre', function () {
     return view('pages.sobre');
 });
 
-Route::get('contato', function () {
-    return view('pages.contato');
-});
+// Route::get('contato', function () {
+//     return view('pages.contato');
+// });
+
+Route::get('contato',array('as'=>'getcontact','uses'=>'PageController@getContact'));
+Route::post('contato',array('as'=>'postcontact','uses'=>'PageController@postContact'));

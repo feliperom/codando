@@ -36,26 +36,34 @@
             </div>
             <div class="col-md-8 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" placeholder="Nome" type="text">
+                    {!! Form::open(array('route' => 'postcontact','method'=>'POST')) !!}
+                    <form action=""></form>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {!! Form::text('name', null, array('placeholder' => 'Nome','class' => 'form-control')) !!}
+                                {!! $errors->first('name', '<p class="alert alert-danger">:message</p>') !!}
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" placeholder="E-mail" type="text">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                {!! Form::text('email', null, array('placeholder' => 'E-mail','class' => 'form-control')) !!}
+                                {!! $errors->first('email', '<p class="alert alert-danger">:message</p>') !!}
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Mensagem"></textarea>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                {!! Form::textarea('message', null, array('placeholder' => 'Mensagem','class' => 'form-control', 'cols' => '30', 'rows' => '7')) !!}
+                                {!! $errors->first('message', '<p class="alert alert-danger">:message</p>') !!}
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <input value="ENVIAR" class="btn btn-codando" type="submit">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                {!! Form::submit('ENVIAR',['class'=>'btn btn-codando']) !!}
+                            </div>
                         </div>
-                    </div>
+                        
+                    {!! Form::close() !!}
                 </div>
             </div>
         </div>
@@ -63,5 +71,24 @@
 </div>
 
 <!-- <div id="map" class="animate-box" data-animate-effect="fadeIn"></div> -->
-
+<script>
+  @if(Session::has('message'))
+    var type = "{{ Session::get('alert-type', 'info') }}";
+    switch(type){
+        case 'info':
+            toastr.info("{{ Session::get('message') }}");
+            break;
+        
+        case 'warning':
+            toastr.warning("{{ Session::get('message') }}");
+            break;
+        case 'success':
+            toastr.success("{{ Session::get('message') }}");
+            break;
+        case 'error':
+            toastr.error("{{ Session::get('message') }}");
+            break;
+    }
+  @endif
+</script>
 @stop

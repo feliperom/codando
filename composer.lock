@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "784b3616132fd21922fb46958cb38fa7",
+    "content-hash": "501c3fc6814819aceb21dd74488b8a70",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -307,6 +307,46 @@
             "time": "2015-12-05 17:17:57"
         },
         {
+            "name": "kirschbaum/laravel-spark-pages",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kirschbaum/laravel-spark-pages.git",
+                "reference": "be117a9b3cf2a2babe2498284ae37c9eb3cdf57c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kirschbaum/laravel-spark-pages/zipball/be117a9b3cf2a2babe2498284ae37c9eb3cdf57c",
+                "reference": "be117a9b3cf2a2babe2498284ae37c9eb3cdf57c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Kirschbaum\\LaravelSparkPages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Nathan Kirschbaum",
+                    "email": "nathan.kirschbaum@gmail.com"
+                },
+                {
+                    "name": "Bryan Miller",
+                    "email": "bryan@kirschbaumdevelopment.com"
+                }
+            ],
+            "description": "Easy CMS-like page creation and editing for Laravel Spark",
+            "keywords": [
+                "content-management",
+                "laravel-spark",
+                "pages"
+            ],
+            "time": "2016-09-18 17:23:48"
+        },
+        {
             "name": "laravel/framework",
             "version": "v5.3.19",
             "source": {
@@ -433,6 +473,60 @@
                 "laravel"
             ],
             "time": "2016-10-17 19:35:14"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v5.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "961ce141c16c6b085128f209496c26efd3e681ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/961ce141c16c6b085128f209496c26efd3e681ca",
+                "reference": "961ce141c16c6b085128f209496c26efd3e681ca",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "5.3.*",
+                "illuminate/routing": "5.3.*",
+                "illuminate/session": "5.3.*",
+                "illuminate/support": "5.3.*",
+                "illuminate/view": "5.3.*",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "illuminate/database": "5.3.*",
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                },
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "http://laravelcollective.com",
+            "time": "2016-08-27 23:52:43"
         },
         {
             "name": "league/flysystem",

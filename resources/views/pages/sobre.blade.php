@@ -88,8 +88,8 @@
 <div id="fh5co-services-section">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
-                <h2>Teremos prazer em atende-lo</h2>
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+                <h2>Somos apaixonados pelo que fazemos!</h2>
                 <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p> -->
             </div>
             <div class="col-md-4 text-center item-block animate-box">
